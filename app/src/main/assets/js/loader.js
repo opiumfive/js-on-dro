@@ -224,7 +224,7 @@ class Loader {
 		}, 600);
 		this.completed = true;
 		this.dom.html.classList.remove('loading');
-		this.dom.html.classList.add('completed');
+		//this.dom.html.classList.add('completed');
 	}
 
 	onResize() {
