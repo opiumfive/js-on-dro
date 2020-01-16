@@ -6,7 +6,7 @@ class System extends SystemBase {
 	constructor(loader) {
 		super(loader);
 
-		this.duration = 6200;
+		this.duration = Infinity;
 		this.count = 75;
 
 		for(let i = 0; i < this.count; i++) {

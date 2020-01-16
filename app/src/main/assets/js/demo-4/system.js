@@ -6,7 +6,7 @@ class System extends SystemBase {
 	constructor(loader) {
 		super(loader);
 
-		this.duration = 5500;
+		this.duration = Infinity;
 		this.lines = [];
 		this.count = 24;
 		this.height = 10;

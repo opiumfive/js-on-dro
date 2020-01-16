@@ -221,10 +221,13 @@ class Loader {
 		setTimeout(() => {
 			this.clock.stop();
 			cancelAnimationFrame(this.raf);
+
+			//replay();
 		}, 600);
 		this.completed = true;
-		this.dom.html.classList.remove('loading');
+		//this.dom.html.classList.remove('loading');
 		//this.dom.html.classList.add('completed');
+
 	}
 
 	onResize() {

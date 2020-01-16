@@ -6,7 +6,7 @@ class System extends SystemBase {
 	constructor(loader) {
 		super(loader);
 
-		this.duration = 9300;
+		this.duration = Infinity;
 		this.simplex = new FastSimplexNoise();
 		this.color = new THREE.Color();
 

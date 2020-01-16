@@ -7,7 +7,7 @@ class System extends SystemBase {
 	constructor(loader) {
 		super(loader);
 
-		this.duration = 8200;
+		this.duration = Infinity;
 		this.count = 60;
 		this.outer = 12;
 

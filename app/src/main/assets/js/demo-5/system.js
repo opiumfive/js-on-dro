@@ -8,7 +8,7 @@ class System extends SystemBase {
 	constructor(loader) {
 		super(loader);
 
-		this.duration = 6000;
+		this.duration = Infinity;
 
 		this.size = 35;
 		this.cols = 25;
