@@ -47,6 +47,15 @@ class MainActivity : AppCompatActivity() {
         }
 
         webView.loadUrl("https://appassets.androidplatform.net/assets/index.html")
+
+        a1.setOnClickListener { webView.loadUrl("https://appassets.androidplatform.net/assets/index.html") }
+        a2.setOnClickListener { webView.loadUrl("https://appassets.androidplatform.net/assets/index2.html") }
+        a3.setOnClickListener { webView.loadUrl("https://appassets.androidplatform.net/assets/index3.html") }
+        a4.setOnClickListener { webView.loadUrl("https://appassets.androidplatform.net/assets/index4.html") }
+        a5.setOnClickListener { webView.loadUrl("https://appassets.androidplatform.net/assets/index5.html") }
+        a6.setOnClickListener { webView.loadUrl("https://appassets.androidplatform.net/assets/index6.html") }
+        a7.setOnClickListener { webView.loadUrl("https://appassets.androidplatform.net/assets/index7.html") }
+        a8.setOnClickListener { webView.loadUrl("https://appassets.androidplatform.net/assets/index8.html")}
     }
 
     override fun onBackPressed() {
